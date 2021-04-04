@@ -93,12 +93,13 @@ footer{
  
 }
 
-.baguioBurnham,.baguioMorning{
-  width:100%;
+section{
+  padding:1em;
 }
 
-/*
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-} */
+.baguioMorning,.baguioBurnham{
+  display:block;
+  margin:0 auto;
+  width:90%;
+  box-shadow: 5px 5px 5px #999;
+}

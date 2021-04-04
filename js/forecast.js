@@ -4,7 +4,7 @@ const apiURL = 'http://api.openweathermap.org/data/2.5/forecast?id=1728930&units
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-   console.log(jsObject);
+  // console.log(jsObject);
 
    
 
