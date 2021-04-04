@@ -7,7 +7,7 @@
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: gray;
+  background-color: #25a18e;
   /*background-color: #00a5cf;*/
   overflow-x: hidden;
   transition: 0.5s;
@@ -53,10 +53,6 @@ header{
   margin:0;  
  }
 
-footer{
-  background-color:#004e64;
-  color:white;
-} 
 
  .logo{
   width:50px;
@@ -103,3 +99,37 @@ section{
   width:90%;
   box-shadow: 5px 5px 5px #999;
 }
+
+h3{
+  background-color:#25a18e;
+  padding:1em;
+  font-size: 1.2em;
+  color:white;
+}
+
+td,th {
+  border: 1px solid rgb(216, 213, 213);
+  padding: 10px;
+  text-align: center;
+ 
+}
+
+p{
+  color:#454a53;
+}
+
+
+footer{
+  background-color:#004e64;
+  color:white;
+  padding:1em;
+  line-height: 1.5em;
+} 
+
+footer img{
+  width:35px;
+}
+/*
+.adverts h4{
+  margin-bottom: 0.5;
+}*/
