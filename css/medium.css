@@ -1,12 +1,44 @@
 @media only screen and (min-width: 768px){
 .mainNav{
-    display:flex;
-    } 
+    display:flex; 
+       }
+    
+.mainNav li{
+    list-style-type: none;
+  
+}   
+
+.mainNav .active{
+    color:#9fffcb;
+}
+
+
+
+.mainNav li a{
+    text-decoration: none;
+    color:white;
+    padding:1em;
+    font-size: 1.5em;
+   
+}
+
+.mainNav li:after{
+    display:block;
+    content:'';
+    border-bottom: solid 3px #f4f4f4;
+    transform: scaleX(0);
+    transition: all 250ms ease-in-out;
+  }
+
+
+.mainNav li:hover:after { 
+     transform:scaleX(.7); 
+    }
+
 
 .container{
     display:none;
 }
-
 
 
 
