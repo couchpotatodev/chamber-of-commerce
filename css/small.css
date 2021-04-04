@@ -56,6 +56,7 @@ header{
 
  .logo{
   width:50px;
+  
 }
 
 .bar1, .bar2, .bar3 {
@@ -89,6 +90,23 @@ header{
  
 }
 
+.welcome{
+  text-align: center;
+  padding:1em;
+}
+
+.welcome button{
+  border-radius: 15px; 
+  display:block;
+  margin:0 auto;
+}
+
+.welcome button:hover{
+  cursor:pointer;
+  background-color: #9fffcb;
+}
+
+
 section{
   padding:1em;
 }
@@ -105,6 +123,7 @@ h3{
   padding:1em;
   font-size: 1.2em;
   color:white;
+  border-radius: 10px; 
 }
 
 td,th {
@@ -128,8 +147,23 @@ footer{
 
 footer img{
   width:35px;
+  border-radius: 10px;
 }
-/*
-.adverts h4{
-  margin-bottom: 0.5;
-}*/
+
+.adverts img{
+  display:block;
+  margin:0 auto;
+   }
+
+ .adverts p{
+   text-align: center;
+ }  
+
+ table{
+  margin:50px auto;
+  border-spacing: 0px;
+  box-shadow: 5px 5px 10px #628ca6;
+  background-color: #e7f0ed;
+  font-family: 'Montserrat', sans-serif;
+  
+}
