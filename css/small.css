@@ -81,6 +81,12 @@ header{
   display:none;
 
 }
+
+.heroimage,.baguioMorning{
+  width:100%;
+ 
+}
+
 /*
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
