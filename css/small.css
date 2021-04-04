@@ -53,6 +53,11 @@ header{
   margin:0;  
  }
 
+footer{
+  background-color:#004e64;
+  color:white;
+} 
+
  .logo{
   width:50px;
 }
