@@ -87,4 +87,12 @@
      text-align: center;
  }
 
+/*city*/
+.city img{
+    
+    width:100%;
+    
+  }
+
+
 } /*end of media query*/    

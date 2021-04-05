@@ -168,3 +168,10 @@ footer img{
   font-family: 'Montserrat', sans-serif;
   
 }
+
+/*city*/
+.city img{
+  margin:0 auto;
+  width:90%;
+  box-shadow: 5px 5px 5px #999;
+}
