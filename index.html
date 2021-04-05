@@ -59,7 +59,7 @@
   <h2>Welcome to Baguio Chamber of Commerce and Industry</h2>
   <button type="button" onclick="alert('Hello world!')">Join Us</button>
 </div>
-
+<div class="block1">
 <section class="about">
   <h3>About</h3>
   <p>Under the direction of the Philippine Chamber of Commerce, the Baguio Chamber of Commerce is a voluntary organization of businesses and professionals who have joined together for the purpose of promoting the civic and commercial progress of the City of Baguio City</p>
@@ -69,16 +69,11 @@
   <p>To strengthen the capabilities of the members through advocacy, innovation and technology</p>
 </section>
 <img class="baguioMorning" src="../chamber of commerce/images/baguioSunrise.jpg" alt="Sunrise at Baguio City" loading=lazy>
+</div><!--end of block1-->
 
+<div class="block2">
 <section> 
-  <!--<picture>
-    <source srcset="../chamber of commerce/images/landing320.jpg" media="(min-width:280px) and (max-width:639px)">
-    <source srcset="../chamber of commerce/images/landing640.jpg" media="(min-width:640px) and (max-width:1023px)">  
-    <img class="baguioMorning" src="../chamber of commerce/images/landing1024.jpg" alt="photo of Mirador Hills, Baguio City">
-  </picture> 
--->
- 
-  <h3>Upcoming Events</h3>
+  <h3>Upcoming events</h3>
   <h4>Induction of new members</h4>
   <p>When: 30 April 2021</p>
   <p>Where: Hotel Supreme</p>
@@ -93,32 +88,37 @@
   <p>Link: To be provided soon</p>
 </section>
 <img class="baguioBurnham" src="../chamber of commerce/images/burnham.jpg" alt="photo of Burnham Park, Baguio City" loading=lazy>
+</div><!--end of block2-->
 
 <section>
 
-  <h3>Why Join Us</h3>
+  <h3>Why join us</h3>
   <p>The Baguio Chamber of Commerce & Industry is committed to deliver highest quality and innovative services that meet members’ needs.</p>
  
 </section>
 <section class="adverts">
   <h3>Advertise with us</h3>
-  <h4>Tea drop</h4><a href="#" target="_blank"><img src="../chamber of commerce/images/ad1.jpg" alt="milk tea shop" loading=lazy></a><br>
+ <div class="block3">
+  <a href="#" target="_blank"><img src="../chamber of commerce/images/ad1.jpg" alt="milk tea shop" loading=lazy></a><br>
  
   <!--<a href="#" target="_blank">MBI APARTMENTS<img src="../chamber of commerce/images/ad3.jpg" alt="MBI Apartments" loading=lazy></a>-->
+  <div>
   <h4>MBI APARTMENTS</h4>
   <p>&#9742; (921) 289-3019 </p><br>
-  <h4>ADIVAY Lions Club</h4><a href="#" target="_blank"><img src="../chamber of commerce/images/ad2.jpg" alt="ADIVAY lions club" loading=lazy></a>
+  </div>
+  <a href="#" target="_blank"><img src="../chamber of commerce/images/ad2.jpg" alt="ADIVAY lions club" loading=lazy></a>
+ </div> <!--end of block3-->
 </section>
 
 <section>
-  <h3>Weather Information</h3>
+  <h3>Weather information</h3>
   <div class="summary">
     <p>Weather: <span id="weather"></span> </p>
     <p>Currently: <span id="temp"></span>&deg; F</p>
     <p>Humidity: <span id="humid"></span></p>
   </div>
 </section>
-<section>
+<section class="forecast">
   <h4>3 Day Forecast</h4>
   <table>
       <tr>
@@ -142,11 +142,13 @@
 </section>
 
     <footer>    
-      <div class="copyright"> &copy; Baguio Chamber of Commerce and Industry</div>
-      <div>Gov. Pack Road, Baguio City, Philippines</div>
-      <div>&#9742; (074) 446-6796</div>
+      <div class="copyright"> &copy; Baguio Chamber of Commerce and Industry<br>
+      Gov. Pack Road, Baguio City, Philippines<br>
+      &#9742; (074) 446-6796</div>
+      <div>
       <a href="http://www.facebook.com" target="_blank"><img src="https://cdn.glitch.com/f2ad9062-5310-4545-8876-cf694392fe7c%2Ffacebook%20icon.png?v=1588818515335" alt="Facebook icon"></a>
       <a href="http://www.instagram.com" target="_blank"><img src="https://cdn.glitch.com/f2ad9062-5310-4545-8876-cf694392fe7c%2Finstagram%20icon.png?v=1588818530460" alt="Instagram icon"></a>
+      </div>  
         <script src="../chamber of commerce/js/forecast.js"></script>
         <script src="../chamber of commerce/js/weather.js"></script>
         <script src="../chamber of commerce/js/openClose.js"></script> 

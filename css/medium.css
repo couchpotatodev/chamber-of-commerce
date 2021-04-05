@@ -43,15 +43,43 @@
 .heroimage{
     position:relative;
 }
-
+/*
 .welcome {
     color:white;
     margin: 0; 
     position: absolute;              
     top: 75%;      
     left:15%;                  
-      }  
+      }  */
+.welcome {
+        margin: 0;
+        /*background: yellow; */
+        position: absolute;
+        color:white;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) }
 
+ .block1, .block2{
+     display:flex;
+     align-items: center;
+   
+ }
 
+ .block3{
+     display:flex;
+     align-items: center;
+     justify-content: space-evenly;
+ }
+
+ footer{
+     display:flex;
+     justify-content: space-between;
+ }
+
+ .forecast h4{
+     text-align: center;
+ }
 
 } /*end of media query*/    
