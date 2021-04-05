@@ -156,9 +156,9 @@ footer img{
   margin:0 auto;
    }
 
- .adverts {
-   text-align: center;
- }  
+.adverts h4, .adverts p{
+  text-align: center;
+}
 
  table{
   margin:50px auto;

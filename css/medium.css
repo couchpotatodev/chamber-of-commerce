@@ -67,6 +67,11 @@
    
  }
 
+.join,.weather,.adverts h3{
+    text-align: center;
+}
+
+ 
  .block3{
      display:flex;
      align-items: center;
