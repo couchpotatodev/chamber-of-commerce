@@ -43,17 +43,9 @@
 .heroimage{
     position:relative;
 }
-/*
-.welcome {
-    color:white;
-    margin: 0; 
-    position: absolute;              
-    top: 75%;      
-    left:15%;                  
-      }  */
+
 .welcome {
         margin: 0;
-        /*background: yellow; */
         position: absolute;
         color:white;
         top: 50%;
@@ -88,11 +80,18 @@
  }
 
 /*city*/
-.city img{
+.citySection img{
     
     width:100%;
     
   }
+
+ .cityActivities{
+     display:grid;
+     grid-template-columns:repeat(auto-fill,minmax(350px,1fr));
+     grid-gap:1.5em;
+ } 
+
 
 
 } /*end of media query*/    

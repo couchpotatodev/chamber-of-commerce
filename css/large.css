@@ -19,7 +19,7 @@
  
 
 
-header{
+.mainHead{
     background-color:transparent;  
     position:relative;
 }
@@ -32,7 +32,6 @@ header{
 .upcomingEvents,.about{
     text-align: center;
 }
-
 
 
 
