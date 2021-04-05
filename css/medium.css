@@ -92,6 +92,16 @@
      grid-gap:1.5em;
  } 
 
+/*contact*/
+/*
+.contactForm{
+    line-height: 30px;
+    max-width: 640px;
+    background-color: yellow;
+    padding:2em;
+    margin:0 auto;
+}
+*/
 
 
 } /*end of media query*/    

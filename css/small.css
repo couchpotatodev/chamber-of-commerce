@@ -175,3 +175,22 @@ footer img{
   width:90%;
   box-shadow: 5px 5px 5px #999;
 }
+
+/*contact*/
+.map{
+  display:block;
+  width:80%;
+  margin:0 auto;
+}
+
+.contactForm{
+  background-color:#9fffcb;
+  max-width: 350px;
+  margin:0 auto;
+}
+
+.contactForm input{
+  line-height: 20px;
+  padding:10px;
+  height:44px;
+}
