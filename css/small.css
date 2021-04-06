@@ -203,3 +203,54 @@ textarea {
 .block1Contact{
   margin:2em;
 }
+
+/*join*/
+.joinForm section{
+  background-color:#9fffcb;
+  max-width: 350px;
+  margin:0 auto;
+}
+
+.joinForm h4{
+  text-align: center;
+}
+
+.joinForm input{
+  line-height: 20px;
+  padding:10px;
+  height:44px;
+  width:250px;
+  margin-bottom: 20px;
+}
+
+#membership{
+  margin-bottom:40px;
+  color:#4f5665;
+}
+
+.joinForm{
+  margin-bottom: 2em;
+}
+
+.joinButton{
+  border-radius: 10px;
+  display:block;
+  margin:0 auto;
+}
+
+.joinButton:hover{
+  cursor:pointer;
+ }
+ /*
+ .levels{
+   background-color: #9fffcb;
+   
+ }
+
+  .levels li{
+    list-style-type: none;
+  }
+
+  .levels a{
+    text-decoration: none;
+  }*/
