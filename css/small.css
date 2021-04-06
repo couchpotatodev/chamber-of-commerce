@@ -194,3 +194,12 @@ footer img{
   padding:10px;
   height:44px;
 }
+
+textarea {
+  width: 300px;
+  height: 150px;
+}
+
+.block1Contact{
+  margin:2em;
+}
