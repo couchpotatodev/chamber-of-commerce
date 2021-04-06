@@ -95,8 +95,13 @@
 /*contact*/
  .block1Contact{
      display:flex;
-    
+    justify-content: space-evenly ;
  }
+
+ textarea {
+    width: 300px;
+    height: 150px;
+  }
 
 
 } /*end of media query*/    

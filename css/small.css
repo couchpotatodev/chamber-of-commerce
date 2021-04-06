@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Roboto:wght@900&display=swap');
 
+
+h1{
+  text-align:center;
+}
 .sidenav {
   height: 100%;
   width: 0;
@@ -196,7 +200,7 @@ footer img{
 }
 
 textarea {
-  width: 300px;
+  width: 200px;
   height: 150px;
 }
 
